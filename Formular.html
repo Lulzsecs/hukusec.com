@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Formulär.css">
+        <title>Formulär</title>
+    </head>
+    <body>
+    <div class="site">   
+    <div class="section">
+        <h2>Survey</h2>
+        <p>What is your favorite city?</p>
+    </div> 
+    
+    <form id="demo" action="mailto:jorgelyur1@student.astar.se">
+        <fieldset>
+        <legend>Contact details</legend>
+        First name:<br>
+        <input type="text" name="fname" id="fname" required><br>
+        Surname:<br>
+        <input type="text" name="ename" id="ename" required><br>
+        E-mail:<br>
+        <input type="email" name="email" id="email" required><br>
+        </fieldset>
+         <br>
+        <fieldset>
+            What is your favorite destination?: <br>
+            <textarea name="msg" id="msg" cols="45" rows="10" required></textarea><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Favorite City</legend>
+            <input type="radio" name="city" id="london" >
+            <label class="labelradio" for="city1">London</label> <br>
+            <input type="radio" name="city" id="Paris">
+            <label class="labelradio" for="city2">Paris</label><br>
+            <input type="radio" name="city" id="Tokyo">
+            <label class="labelradio" for="city3">Tokyo</label><br>        
+            <input type="radio" name="city" id="Other">
+            <label class="labelradio" for="other">Other</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <Legend>Övriga frågor</Legend>
+            Ålder: <br>
+            <input type="text" name="alder" id="alder" required /><br>
+            Kön:<br>
+            <input type="text" name="fname" id="fname" required /><br>
+            Födelsedatum:<br>
+            <input type="text" name="fname" id="fname" required /><br>
+            Födelseort:<br>
+            <input type="text" name="fname" id="fname" required /><br>
+            Hemsida:<br>
+            <input type="text" name="homesite" id="hemsida" reuiqred /><br>
+            
+        </fieldset>
+        <br>
+        <input type="Submit" value="Send">
+
+    </form>
+    </div>
+    </body>
+
+
+</html>
